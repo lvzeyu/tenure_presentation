@@ -56,16 +56,15 @@ color: navy-light
 :: content ::
 
 - **東北大学着任後の業績**
-    - 研究実績：主要な研究内容 / 研究活動 / 論文・学会発表の状況
-    - 教育実績：授業設計への工夫 / 学生指導の実績
+    - 研究実績：主要な研究内容・研究活動 / 論文・学会発表の状況
+    - 教育実績：授業設計と学生指導における工夫
 
 - **今後の研究に対する抱負**
     - 今後の研究計画：競争的資金獲得を見据えた研究の発展と高度化
-    - 研究業績に関する目標: 着実に国際的な論文成果へつながる研究推進
+    - 研究業績に関する目標: 着実に国際的な論文成果へつなげる研究を推進
 
 - **今後の教育に対する抱負**
-    - 授業の改善に向けて工夫：最新研究動向を反映した授業内容の充実化
-    - 研究室の運営: 研究グループとして活動する体制・環境の整備
+    - 研究室の運営: 研究グループとして活動するための体制・環境の整備
 
 
 ---
@@ -80,7 +79,7 @@ layout: section
 ---
 layout: side-title
 side: l
-color: violet
+color: violet-light
 titlewidth: is-3
 align: lt-lt
 
@@ -88,9 +87,9 @@ align: lt-lt
 
 :: title ::
 
-# デジタル空間における意見形成のメカニズムへの解明
+# デジタル空間における意見形成メカニズムの解明
 
-- ビックデータ、自然言語処理とネットワーク分析など計算的手法を用いて、デジタル空間における意見ダイナミックとインタラクションの実態を把握する上で、その背後のメカニズムを体系的に解明する
+- ビッグデータ、自然言語処理、ネットワーク分析などの計算的手法を用いて、デジタル空間における意見のダイナミクスやインタラクションの実態を把握し、その背後にあるメカニズムを体系的に解明
 
 <div style="text-align: right; font-size: 2em;">
   <mdi-arrow-right />
@@ -98,9 +97,14 @@ align: lt-lt
 
 :: content ::
 
-#### ソーシャルメディアにおける、異なるイデオロギーを持つ人々が政治的アイデンティティによって意見対立の激化 [(Lyu, 2023)](https://journals.sagepub.com/doi/10.1177/14614448231180654)
+<div v-click>
 
-<div class='w-full bg-white border border-black flex flex-col h-42'>
+#### ソーシャルメディアにおける、異なるイデオロギーを持つ人々が政治的アイデンティティによる意見対立の激化 [(Lyu, 2023)](https://journals.sagepub.com/doi/10.1177/14614448231180654)
+
+</div>
+
+<div v-click class='w-full bg-white border border-black flex flex-col h-42'>
+
   <h4 class="bg-violet-500 text-white px-6 py-2 m-0">フォローネットワークによるイデオロギーの推定</h4>
   <div class="flex items-center justify-center w-full p-4 pb-2 flex-1 gap-4">
     <div class="flex flex-col items-center flex-1">
@@ -116,7 +120,7 @@ align: lt-lt
   </div>
 </div>
 
-<div class="grid grid-cols-2 gap-4 mt-4">
+<div v-click class="grid grid-cols-2 gap-4 mt-4">
   <div class='bg-white border border-black flex flex-col h-58'>
     <h4 class="bg-violet-500 text-white px-6 py-2 m-0">推定結果の検証</h4>
     <div class="flex items-center justify-center w-full p-4 pb-2 flex-1">
@@ -144,7 +148,7 @@ align: lt-lt
 ---
 layout: side-title
 side: l
-color: violet
+color: violet-light
 titlewidth: is-3
 align: lt-lt
 
@@ -165,7 +169,7 @@ align: lt-lt
 :: content ::
 
 
-<div class='w-full bg-white border border-black flex flex-col h-55'>
+<div v-click class='w-full bg-white border border-black flex flex-col h-55'>
   <h4 class="bg-violet-500 text-white px-6 py-2 m-0">
     移動データと地理空間情報による社会的空間隔離の推定
   </h4>
@@ -184,7 +188,7 @@ align: lt-lt
   </div>
 </div>
 
-<div class="grid gap-4 mt-4" style="grid-template-columns: 2.5fr 3fr;">
+<div v-click class="grid gap-4 mt-4" style="grid-template-columns: 2.5fr 3fr;">
   <div class='bg-white border border-black flex flex-col h-58'>
     <h4 class="bg-violet-500 text-white px-6 py-2 m-0">社会的空間隔離の実態</h4>
     <div class="flex items-center justify-center w-full p-4 pb-2 flex-1">
@@ -212,18 +216,18 @@ align: lt-lt
 
 ---
 layout: top-title
-color: violet
+color: violet-light
 align: l
 ---
 
 
 :: title ::
 
-# その他の研究活動:積極的に多様な分野の研究者と共同研究の展開
+# その他の研究活動:多様な分野の研究者と共同研究の展開
 
 :: content ::
 
-<div class='w-full bg-white border border-black flex flex-col h-60'>
+<div v-click class='w-full bg-white border border-black flex flex-col h-60'>
   <h4 class="bg-violet-500 text-white px-6 py-2 m-0">
     社会科学
   </h4>
@@ -245,7 +249,7 @@ align: l
         </div>
       </div>
     </div>
-    <div class="flex flex-col justify-start text-xs px-2 pt-0.2">
+    <div v-click class="flex flex-col justify-start text-xs px-2 pt-0.2">
       <ul class="space-y-0">
         <li>「<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-24K21436/" target="_blank" style="color: inherit; text-decoration: none;">ビッグデータを用いた社会秩序問題の解明−計算社会秩序論の創成−</a>」(挑戦的研究,代表:佐藤嘉倫)に参加し、ビックデータ解析とシミュレーションの実装を担当</li>
         <li>「SSM2025プロジェクト」ビックデータタスクフォースメンバー</li>
@@ -256,7 +260,7 @@ align: l
 </div>
 
 <div class="grid grid-cols-2 gap-4 mt-4">
-  <div class='bg-white border border-black flex flex-col h-50'>
+  <div v-click class='bg-white border border-black flex flex-col h-50'>
     <h4 class="bg-violet-500 text-white px-6 py-2 m-0">
       歴史学・天文学
     </h4>
@@ -270,7 +274,7 @@ align: l
     </div>
   </div>
 
-  <div class='bg-white border border-black flex flex-col h-50'>
+  <div v-click class='bg-white border border-black flex flex-col h-50'>
     <h4 class="bg-violet-500 text-white px-6 py-2 m-0">
       情報科学
     </h4>
@@ -298,6 +302,7 @@ align: r-lt-lt
 
 - Scopus に登録された論文は4本、そのうち2本は分野別ランキング上位10％の雑誌に掲載
 
+- その他、国際誌に査読中の論文は4本
 
 :: right ::
 
@@ -321,7 +326,7 @@ align: r-lt-lt
 layout: side-title
 side: r
 color: pink-light
-titlewidth: is-4
+titlewidth: is-3
 align: lt-lm
 ---
 
@@ -357,8 +362,8 @@ align: lt-lm
        alt="授業資料例1"
        class="max-h-full max-w-[75%] object-contain" />
     </div>
-    <div class="text-xs text-center px-2 pb-2">
-      いつでも・どこでもアクセス可能な授業資料
+    <div class="text-xs px-2 pb-2 pt-2 h-16 flex items-start justify-center">
+      <div class="text-center">いつでも・どこでもアクセス可能な授業資料</div>
     </div>
   </div>
 
@@ -368,8 +373,8 @@ align: lt-lm
        alt="授業資料例2"
        class="max-h-full max-w-full object-contain" />
     </div>
-    <div class="text-xs text-center px-2 pb-2">
-      実践的なスキル習得を目的に、コードの具体例を取り入れながら授業を進行
+    <div class="text-xs px-2 pb-2 pt-2 h-16 flex items-start justify-center">
+      <div class="text-center">実践的なスキル習得を目的に、コードの具体例を取り入れながら授業を進行</div>
     </div>
   </div>
 
@@ -379,8 +384,8 @@ align: lt-lm
        alt="授業資料例3"
        class="max-h-full max-w-full object-contain" />
     </div>
-    <div class="text-xs text-center px-2 pb-2">
-      実践的な問題解決力が求められる課題を通じて、授業内容の理解と応用力を強化
+    <div class="text-xs px-2 pb-2 pt-10 h-16 flex items-start justify-center">
+      <div class="text-center">実践的な問題解決力が求められる課題を通じて、授業内容の理解と応用力を強化</div>
     </div>
   </div>
 </div>
@@ -392,7 +397,7 @@ align: lt-lm
 layout: side-title
 side: r
 color: pink-light
-titlewidth: is-4
+titlewidth: is-3
 align: lt-lm
 ---
 
@@ -402,25 +407,39 @@ align: lt-lm
 
 - 定期的なゼミにて学生の研究進捗を確認し、ニーズに応じて個別相談にも対応。研究が順調に進むよう継続的にサポート
 
-- 学生との共同研究の実施も積極的に検討し、研究経験・スキル・業績形成を後押し
+- 学生との共同研究の実施も積極的に推進し、研究経験・スキル・業績形成を後押し
 
 # <mdi-arrow-left />
 
 :: content ::
 
+<div class="text-xl leading-tight space-y-0.5">
+
+<v-clicks>
 
 ## 学部生への指導
-　
-- B3前期：教科書『計算社会科学入門』の輪読を通じて、分野全般の基礎知識と主要研究手法を習得
-- B3後期：Python ワークショップを定期的に実施し、プログラミングの実践力と応用スキルを強化
-- B4: 定期ゼミに加え、個別相談も行いながら、卒業論文の完成をサポート
+
+- 教科書『計算社会科学入門』の輪読を通じて、分野全般の基礎知識と主要研究手法を習得
+- Python ワークショップを定期的に実施し、プログラミングの実践力と応用スキルを強化
+
+</v-clicks>
+
+<v-clicks>
 
 ## 院生への指導
+</v-clicks>
+
+<v-clicks depth="2">
 
 - 国際学会発表や国際誌掲載を念頭に、ゼミを英語で実施
 - 学生との共同研究を積極的に推進
     - すでに<a href="https://osf.io/preprints/socarxiv/5zrhq_v1" target="_blank" style="color: inherit; text-decoration: none;">Yamakuchi & Lyu (2025)</a>, <a href="https://www.jis.ac.cn/CN/Y2025/V4/I2/138" target="_blank" style="color: inherit; text-decoration: none;">Wang & Lyu (2025)</a>など掲載済み・投稿中の共同研究実績あり
+- 学振、学位プログラム、奨学金への応募にサポート
+    - 指導学生には、学振DC合格者や卓越大学院・学際高等研究教育院所属者、国費留学生が多数いる
 
+</v-clicks>
+
+</div>
 
 ---
 layout: section
@@ -431,553 +450,328 @@ layout: section
 今後の研究計画と研究業績に関する目標を述べる
 
 
-
 ---
-transition: slide-up
-level: 2
----
-
-# Navigation
-
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
+layout: top-title
+color: white
+align: l
 ---
 
-# Table of contents
+:: title ::
 
-You can use the `Toc` component to generate a table of contents for your slides:
+<div style="background: #3d1583; margin: -1rem -2rem 1rem -2rem; padding: 1rem 2rem; color: white;">
 
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
+# 既存研究の問題点
 
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
+</div>
 
-::right::
+:: content ::
 
-<Toc text-sm minDepth="1" maxDepth="2" />
+<div class="flex justify-center items-center w-full h-full">
+  <img src="./Figure/limitation.png" alt="Limitation" class="max-h-96 object-contain" />
+</div>
+
+<div v-click class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" style="width: 80%; height: 60%;">
+  <div style="background: rgba(61, 21, 131, 0.15); border-radius: 2rem; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+    <div style="background: #3d1583; color: white; padding: 2rem 3rem; border-radius: 0.5rem; font-size: 2rem; text-align: center;">
+      <strong>理解、予測と検証の統合</strong>が望ましい
+    </div>
+  </div>
+</div>
+
+
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+image: ./Figure/LLMs_sys.png
+backgroundSize: 95%
 ---
 
-# Code
+# LLMs Agents駆動の社会シミュレーション
 
-Use code snippets and get the highlighting directly, and even types hover!
 
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from 'vue'
 
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
+<div style="background: rgba(61, 21, 131, 0.1); color: #3d1583; padding: 1rem 1.5rem; border-radius: 0.5rem; margin-top: 1.5rem;">
 
-doubled.value = 2
-```
+<v-clicks>
 
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
+- ❶推薦システムが、環境(ユーザの関係や流通情報)に基づいて各ユーザ(エージェント)への提示情報を決定する
+- ❷各ユーザ(エージェント)は、提示情報に基づき意見を更新し、必要に応じて投稿や他者とのやり取りなどの行動を実行
+- ❸各ユーザ(エージェント)の行動により、環境が動的にアップデートされる
+</v-clicks>
 
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
-
----
-level: 2
----
-
-# Shiki Magic Move
-
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
-
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
-
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
-
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
-
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
+<div style="background: #3d1583; color: white; padding: 0.5rem 1rem; border-radius: 0.5rem; margin-top: 0rem; line-height: 1; font-weight: bold; font-size: 1rem; text-align: center;">
+ソーシャルメディア上の情報伝播とコミュケーションを再現するシステム
 </div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
 
 </div>
 
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
 
 ---
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
+layout: top-title
+color: white
+align: l
 ---
 
-# Motions
+:: title ::
 
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
+<div style="background: #3d1583; margin: -1rem -2rem 1rem -2rem; padding: 1rem 2rem; color: white;">
 
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
+# LLMs Agents駆動のシミュレーションと実験手法の確立
+
 </div>
-```
 
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
+:: content ::
 
+<div class="flex justify-center items-center w-full h-full relative">
+  <img src="./Figure/LLMs-experienment.png" alt="Limitation" class="max-h-96 object-contain" />
+  
+  <div v-click="[1, 2]" class="absolute inset-0 flex justify-center items-center">
   <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
+    style="
+      border: 3px dashed rgba(61, 21, 131 0.6);
+      width: 95%;
+      height: 50%;
+      border-radius: 1rem;
+      margin-top: -15rem;
+      background: rgba(61, 21, 131, 0.15);
+    "
+  ></div>
+</div>
+
+<div v-click="[2, 3]" class="absolute inset-0 flex justify-center items-center">
+  <div
+    style="
+      border: 3px dashed rgba(61, 21, 131 0.6);
+      width: 95%;
+      height: 50%;
+      border-radius: 1rem;
+      margin-top: 14rem;
+      background: rgba(61, 21, 131, 0.15);
+    "
+  ></div>
+</div>
+
+<div v-click="[3]" class="absolute inset-0 flex justify-center items-center">
+  <div
+    style="
+      border: 3px dashed rgba(61, 21, 131 0.6);
+      width: 45%;
+      height: 110%;
+      border-radius: 1rem;
+      margin-top: -2rem;
+      margin-left: 28rem;
+      background: rgba(61, 21, 131, 0.15);
+    "
+  ></div>
+</div>
+
+</div>
+
+
+
+
+---
+layout: top-title
+color: white
+align: l
+---
+
+:: title ::
+
+<div style="background: #3d1583; margin: -1rem -2rem 1rem -2rem; padding: 1rem 2rem; color: white;">
+
+# LLM AgentsでルールベースAgentsを入れ替え
+
+</div>
+
+:: content ::
+
+<div class="flex justify-center items-center w-full h-full">
+  <img src="./Figure/advantage.png" alt="Limitation" class="max-h-96 object-contain" />
+</div>
+
+
+
+---
+layout: top-title
+color: white
+align: l
+---
+
+:: title ::
+
+<div style="background: #3d1583; margin: -1rem -2rem 1rem -2rem; padding: 1rem 2rem; color: white;">
+
+# 研究推進の計画
+
+</div>
+
+:: content ::
+
+<div class="grid grid-cols-2 gap-4">
+  <div v-click class='bg-white border border-black flex flex-col h-100'>
+    <h4 class="text-white px-6 py-2 m-0" style="background: #3d1583; text-align: center;">社会シミュレーションの実装
+    </h4>
+    <div class="flex flex-col w-full p-4 flex-1">
+      <div class="text-xl mb-2">- 既存のLLM駆動のシミュレータツール (e.g., <a href="https://github.com/tsinghua-fib-lab/AgentSociety" target="_blank" style="color: inherit; text-decoration: none;">AgentSociety</a>, <a href="https://oasis.camel-ai.org/" target="_blank" style="color: inherit; text-decoration: none;">OASIS</a>) に基づく開発</div>
+      <div class="text-xl mb-2">- 情報科学の研究者との連携でシステム開発と実装を進む予定</div>
+      <div class="grid grid-cols-3 gap-2 flex-1">
+        <div class="text-sm text-center leading-tight">
+          <div class="flex items-center justify-center" style="height: 180px; margin-bottom: -1.5rem;">
+            <img src="./Figure/xiao.jpg" alt="図1" class="max-h-full max-w-full object-contain" />
+          </div>
+          <div class="text-sm text-center" style="margin-top: -0.2rem; line-height: 1.2;">
+            Chuan Xiao<br/>(大阪大学)
+          </div>
+        </div>
+        <div class="text-sm text-center leading-tight">
+          <div class="flex items-center justify-center" style="height: 180px; margin-bottom: -1.5rem;">
+            <img src="./Figure/xiong.jpg" alt="図2" class="max-h-full max-w-full object-contain" />
+          </div>
+          <div class="text-sm text-center" style="margin-top: -0.2rem; line-height: 1.2;">
+            Jinjun Xiong<br/>(University at Buffalo)
+          </div>
+        </div>
+        <div class="text-sm text-center leading-tight">
+          <div class="flex items-center justify-center" style="height: 180px; margin-bottom: -1.5rem;">
+            <img src="./Figure/sagekuchi.jpg" alt="図3" class="max-h-full max-w-full object-contain" />
+          </div>
+          <div class="text-sm text-center" style="margin-top: -0.2rem; line-height: 1.2;">
+            坂口 慶祐<br/>(東北大学)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div v-click class='bg-white border border-black flex flex-col h-100'>
+    <h4 class="text-white px-6 py-2 m-0" style="background: #3d1583; text-align: center;">デジタル実験システムの開発</h4>
+    <div class="flex flex-col w-full p-4 flex-1">
+      <div class="text-xl mb-2">- 既存デジタル実験ツールに基づく、LLMsエージェントを組み込んだデジタル実験プラットフォームを開発</div>
+      <div class="flex flex-col flex-1">
+        <div class="grid grid-cols-2 gap-2 flex-1">
+          <div class="flex items-center justify-center">
+            <img src="./Figure/bbs1.png" alt="実験システム1" class="max-h-full max-w-full object-contain" />
+          </div>
+          <div class="flex items-center justify-center">
+            <img src="./Figure/bbs2.png" alt="実験システム2" class="max-h-full max-w-full object-contain" />
+          </div>
+        </div>
+        <div class="text-sm text-center" style="margin-top: 0.5rem;">
+          オンラインコミュニティにおける議論や交流を観察するためのデジタル実験ツール
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
 
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
 
 ---
-
-# $\LaTeX$
-
-$\LaTeX$ is supported out-of-box. Powered by [$\KaTeX$](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
+layout: top-title-two-cols
+columns: is-6
+align: l-lt-lt
+color: indigo-light
 ---
 
-# Diagrams
 
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
+:: title ::
 
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
+# 研究業績の目標
 
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
+:: left ::
 
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
 
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
 
-```plantuml {scale: 0.7}
-@startuml
+## 競争的研究費の獲得
 
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
+<v-clicks>
 
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
+- 学内研究費や民間財団の研究助成に積極的に応募
+    - SOKAP-Connect/新領域創成のための挑戦研究デュオ
 
-cloud {
-  [Example 1]
-}
+- 国際共同研究に関する研究費への応募
+    - 今年度国際共同研究に関する研究費の申請2件を出した
 
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
+- 科研費とJSTなど外部資金への応募
+    - 創発的研究支援事業
+    - さきがけ
+    - 次世代AI人材育成プログラム
+</v-clicks>
 
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
+:: right ::
 
-@enduml
-```
+## 研究業績に対する目標
 
-</div>
+<v-clicks>
 
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
+- 積極的に国際学会で研究成果を発信し、国際的ネットワークの拡大と共同研究の形成を努力
+   - 社会科学系の学会だけでなく、学際的学会(e.g., [IC2S2](https://www.ic2s2-2025.org/))と関連する情報科学系の学会(e.g., [EMNLP](https://2025.emnlp.org/),[CHI](https://chi2025.acm.org/))にも積極的に参入
+
+- 国際卓越准教授の数値指標を念頭に、着実に論文発表業績を積み重ねる
+   - 論文数4.2本/年・Top 10%論文数0.8本/年
+</v-clicks>
+
+
 
 ---
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
+layout: section
 ---
 
-# Draggable Elements
+# `今後の教育に対する抱負` 
 
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
+今後の研究指導と研究室運営に関する考え方を述べる
 
 ---
-src: ./pages/imported-slides.md
-hide: false
+layout: top-title
+color: blue-light
+align: l
 ---
 
----
 
-# Monaco Editor
+:: title ::
 
-Slidev provides built-in Monaco Editor support.
+# 研究グループとして活動する研究室体制・環境の整備
 
-Add `{monaco}` to the code block to turn it into an editor:
+:: content ::
 
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
+<v-clicks>
 
-const arr = ref(emptyArray(10))
-```
+## 研究室内の共同研究を活性化
 
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
+</v-clicks>
 
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
+<v-clicks>
 
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
+- データ、コード、アイデアの蓄積を共有する仕組み(GitHub, Notion, 研究室NASなどを活用する体制)
+- 研究内容に共通点がある学生・メンバーをつなぎ、共同研究チームを構築
+
+</v-clicks>
+
+<v-clicks>
+
+## 研究室内の共有リソースと設備の整備
+
+</v-clicks>
+
+
+<v-clicks>
+
+- 大規模データを扱う研究を支援するために、GPUサーバーおよびストレージサーバーを整備し、研究室内の計算資源を共同利用化
+    - 今年度の研究費でGPUサーバーの購入と設置を進めている
+
+</v-clicks>
+
+
 
 ---
 layout: center
 class: text-center
+color: navy
 ---
 
-# Learn More
+# ご清聴ありがとうございました
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
 
-<PoweredBySlidev mt-10 />
+
+
+
