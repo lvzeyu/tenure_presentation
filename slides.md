@@ -17,6 +17,7 @@ duration: 20min
 color: navy-light
 layout: intro
 colorSchema: light
+selectable: true
 ---
 
 # 総合人間学専攻社会人間学講座
